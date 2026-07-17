@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+/* Header */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#2563eb;
+    color:white;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:25px;
+}
+
+header h1{
+    font-size:28px;
+}
+
+#clock{
+    font-size:16px;
+    font-weight:500;
+}
+
+/* Dashboard */
+
+.dashboard{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.card{
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card i{
+    font-size:40px;
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+/* Sensors */
+
+.sensors{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin:20px 0;
+}
+
+.sensor{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.sensor h3{
+    margin-top:10px;
+    color:#2563eb;
+}
+
+/* Chart */
+
+.chart{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    margin:20px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+/* Activity */
+
+#logs{
+    background:white;
+    list-style:none;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+#logs li{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+#logs li:last-child{
+    border:none;
+}
+
+/* Headings */
+
+h2{
+    margin:25px 0 15px;
+    color:#1e3a8a;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+header h1{
+    font-size:22px;
+}
+
+button{
+    width:100%;
+}
+
+}

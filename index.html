@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Home Monitoring</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1><i class="fa-solid fa-house"></i> Smart Home Monitoring</h1>
+
+        <div id="clock"></div>
+    </header>
+
+    <!-- Dashboard -->
+
+    <section class="dashboard">
+
+        <div class="card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Light</h3>
+            <p id="lightStatus">OFF</p>
+            <button id="lightBtn">Toggle</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-fan"></i>
+            <h3>Fan</h3>
+            <p id="fanStatus">OFF</p>
+            <button id="fanBtn">Toggle</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-door-closed"></i>
+            <h3>Door</h3>
+            <p id="doorStatus">Locked</p>
+            <button id="doorBtn">Toggle</button>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-snowflake"></i>
+            <h3>Air Conditioner</h3>
+            <p id="acStatus">OFF</p>
+            <button id="acBtn">Toggle</button>
+        </div>
+
+    </section>
+
+    <!-- Sensors -->
+
+    <h2>Live Sensors</h2>
+
+    <section class="sensors">
+
+        <div class="sensor">
+            🌡 Temperature
+            <h3 id="temp">28°C</h3>
+        </div>
+
+        <div class="sensor">
+            💧 Humidity
+            <h3 id="humidity">60%</h3>
+        </div>
+
+        <div class="sensor">
+            💨 Gas
+            <h3 id="gas">Normal</h3>
+        </div>
+
+        <div class="sensor">
+            🚶 Motion
+            <h3 id="motion">Detected</h3>
+        </div>
+
+    </section>
+
+    <!-- Chart -->
+
+    <h2>Temperature Analytics</h2>
+
+    <div class="chart">
+        <canvas id="tempChart"></canvas>
+    </div>
+
+    <!-- Activity -->
+
+    <h2>Recent Activity</h2>
+
+    <ul id="logs">
+        <li>System Started</li>
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
