@@ -12,6 +12,13 @@ The application follows a serverless architecture using AWS managed services to 
 
 ---
 
+## 🌐 Live Demo
+
+Experience the deployed Smart Home Monitoring & Automation Platform here:
+
+🔗 **Live Application:**  
+   http://smart-home-monitoring-456.s3-website-us-east-1.amazonaws.com
+
 # 🚀 Features
 
 - 💡 Smart Light Control
@@ -149,7 +156,7 @@ Implemented:
 - Secure Role Management
 - Service Authorization
 
-
+---
 
 # 📊 Dashboard Features
 
@@ -202,8 +209,6 @@ CloudWatch
 Updated Dashboard
 ```
 
-
-
 # 🎯 Project Highlights
 
 - Fully Serverless Architecture
@@ -217,7 +222,7 @@ Updated Dashboard
 - Static Website Hosting
 - DevOps Workflow
 
-
+---
 
 # 🚀 Future Enhancements
 
@@ -230,7 +235,7 @@ Updated Dashboard
 - Push Notifications
 - Smart Security Camera Integration
 
-
+---
 
 # 📚 Learning Outcomes
 
@@ -247,22 +252,22 @@ Through this project, I gained practical experience in:
 - DevOps Practices
 - CI/CD Pipeline
 
-
+---
 
 # ✅ Project Outcome
 
 Successfully designed and deployed a cloud-based Smart Home Monitoring & Automation Platform using AWS managed services. The project demonstrates practical implementation of serverless computing, cloud storage, REST APIs, NoSQL databases, cloud monitoring, and DevOps practices.
 
-
+---
 
 # 👨‍💻 Author
 
-**Kanikineedi Tejaswi**
+**Tejaswi Kanikineedi**
 
 B.Tech - Computer Science and Artificial Intelligence
 
 Sri Vasavi Engineering College
 
-
+---
 # 📜 License
 This project is created for educational and learning purposes.
