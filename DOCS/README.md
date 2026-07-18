@@ -149,7 +149,7 @@ Implemented:
 - Secure Role Management
 - Service Authorization
 
----
+
 
 # 📊 Dashboard Features
 
@@ -202,25 +202,7 @@ CloudWatch
 Updated Dashboard
 ```
 
----
 
-# 📸 Screenshots
-
-Add your screenshots inside a **screenshots** folder.
-
-Example:
-
-```
-screenshots/
-│── dashboard.png
-│── api-gateway.png
-│── lambda.png
-│── dynamodb.png
-│── s3.png
-│── cloudwatch.png
-```
-
----
 
 # 🎯 Project Highlights
 
@@ -235,7 +217,7 @@ screenshots/
 - Static Website Hosting
 - DevOps Workflow
 
----
+
 
 # 🚀 Future Enhancements
 
@@ -248,7 +230,7 @@ screenshots/
 - Push Notifications
 - Smart Security Camera Integration
 
----
+
 
 # 📚 Learning Outcomes
 
@@ -265,22 +247,22 @@ Through this project, I gained practical experience in:
 - DevOps Practices
 - CI/CD Pipeline
 
----
+
 
 # ✅ Project Outcome
 
 Successfully designed and deployed a cloud-based Smart Home Monitoring & Automation Platform using AWS managed services. The project demonstrates practical implementation of serverless computing, cloud storage, REST APIs, NoSQL databases, cloud monitoring, and DevOps practices.
 
----
+
 
 # 👨‍💻 Author
 
 **Kanikineedi Tejaswi**
 
-B.Tech - Computer Science & Engineering
+B.Tech - Computer Science and Artificial Intelligence
 
 Sri Vasavi Engineering College
 
----
 
-## ⭐ If you found this project useful, don't forget to star this repository!
+# 📜 License
+This project is created for educational and learning purposes.
